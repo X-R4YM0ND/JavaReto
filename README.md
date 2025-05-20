@@ -1,4 +1,4 @@
-# JavaReto
+![image](https://github.com/user-attachments/assets/3e3ec6fc-da7e-4778-a320-edb01fd69f04)# JavaReto
 
 # Proyecto de Microservicios para Gestión Bancaria
 
@@ -92,6 +92,7 @@ El microservicio estará disponible en: [http://localhost:8090](http://localhost
     "personPhone":"099999999"
 }
 ```
+![image](https://github.com/user-attachments/assets/2846e7fc-51d7-4be8-ac25-9aa490df25bb)
 
 ### 2. Crear un Cliente
 
@@ -109,6 +110,7 @@ El microservicio estará disponible en: [http://localhost:8090](http://localhost
 }
 
 ```
+![image](https://github.com/user-attachments/assets/7be27c2b-2eb2-4adc-ac61-ed8bf3a68f07)
 
 ### 3. Crear una Cuenta
 
@@ -127,6 +129,7 @@ El microservicio estará disponible en: [http://localhost:8090](http://localhost
 }
 
 ```
+![image](https://github.com/user-attachments/assets/a0adf686-f16d-47ea-b9e3-cb502cb15b76)
 
 > Nota: El clientId debe corresponder a un cliente existente en el microservicio personacuenta.
 > 
@@ -145,6 +148,8 @@ El microservicio estará disponible en: [http://localhost:8090](http://localhost
 }
 
 ```
+![image](https://github.com/user-attachments/assets/c93bb740-1c4d-415a-bce0-3dcb65006e80)
+
 
 ### 5. Registrar un Movimiento (Retiro)
 
