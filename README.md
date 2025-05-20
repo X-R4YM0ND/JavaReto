@@ -43,8 +43,13 @@ CREATE DATABASE MSAccMov;
 ```
 ### 2. Validar credenciales de Base de Datos
 
-Debido que se esta lanzando en un entorno local, el puerto para ambas bases debe ser el 5342 y asignarle credenciales de admin
+Debido que se esta lanzando en un entorno local, el puerto para ambas bases debe ser el 5432 y asignarle credenciales de admin
 en los application.properties.
+```
+spring.datasource.url=jdbc:postgresql://localhost:5432/NameBD
+spring.datasource.username=user
+spring.datasource.password=psswd
+```
 
 ### 3. Iniciar el Servidor Eureka
 
@@ -77,6 +82,7 @@ El microservicio estará disponible en: [http://localhost:8090](http://localhost
 
 ### 1. Crear una Persona
 **Endpoint**: `POST <http://localhost:8080/api/person`>
+```json
 {
     "personName":"Nombre",
     "personGender":"Masculine",
@@ -85,6 +91,7 @@ El microservicio estará disponible en: [http://localhost:8090](http://localhost
     "personAddress":"Castillo",
     "personPhone":"099999999"
 }
+```
 
 ### 2. Crear un Cliente
 
@@ -157,7 +164,7 @@ El microservicio estará disponible en: [http://localhost:8090](http://localhost
 > Nota: Para retiros, el valor debe ser negativo. 
 > 
 
-### 5. Consultar Movimientos de una Cuenta
+### 6. Consultar Movimientos de una Cuenta
 
 **Endpoint**: `GET <http://localhost:8090/movimientos/777`>
 
