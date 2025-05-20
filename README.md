@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3e3ec6fc-da7e-4778-a320-edb01fd69f04)# JavaReto
+# JavaReto
 
 # Proyecto de Microservicios para Gestión Bancaria
 
