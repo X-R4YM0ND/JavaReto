@@ -176,7 +176,8 @@ El microservicio estará disponible en: [http://localhost:8090](http://localhost
 Donde `777` es el número de cuenta.
 
 ### 7. Prueba Unitaria
-Dentro de la carpeta test se encuentra ClientControllerTest
+Dentro de la carpeta test se encuentra ClientControllerTest.
+
 ![image](https://github.com/user-attachments/assets/3fe533cc-6e67-43a7-b252-a06098d7e3b6)
 ![image](https://github.com/user-attachments/assets/0f9cbb09-4e92-4e41-8d3b-ae9614d8543d)
 
